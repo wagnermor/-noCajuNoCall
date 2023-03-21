@@ -1,7 +1,25 @@
 .header {
-  background-color: #333;
+  background-color: var(--gray-800);
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: .5rem;
+}
+
+.img {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.logo {
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: var(--gray-300);
+  padding: .5rem;
+}
+
+.logo:hover {
+  background-color: var(--withe);
+  cursor: pointer;
 }
