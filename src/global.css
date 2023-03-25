@@ -8,7 +8,15 @@
   --gray-800: #202024;
   --gray-900: #121214;
 
+  --green-300: #00B37E;
   --green-500: #00875f;
+
+  --red-500: #F75A68;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--green-500);
 }
 
 * {
@@ -26,4 +34,18 @@ body, input, textarea, button {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
+}
+body::-webkit-scrollbar {
+  background-color: transparent;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 0;  /* creates padding around scroll thumb */
+  width: .4rem;
+  height: 10px;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--gray-400);    /* color of the scroll thumb */
+  border-radius: 8px;
 }

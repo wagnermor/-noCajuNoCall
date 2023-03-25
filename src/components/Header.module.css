@@ -7,16 +7,13 @@
   gap: .5rem;
 }
 
-.img {
-  border-radius: 50%;
-  width: 10rem;
-}
-
 .logo {
   height: 3.5rem;
   border-radius: 50%;
   background-color: var(--gray-300);
   padding: .5rem;
+  border: solid 4px var(--gray-800);
+  outline: solid 2px var(--green-500);
 }
 
 .logo:hover {
